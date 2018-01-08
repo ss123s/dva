@@ -1,0 +1,18 @@
+*{
+  margin:0;
+  padding:0;
+}
+html, body, :global(#root) {
+  height: 100%;
+}
+ul ,li :global(#root) {
+ list-style: none;
+  text-align: center;
+  height:40px;
+  line-height:40px;
+}
+a{
+  text-decoration: none;
+  color:#222;
+  cursor:pointer;
+}
