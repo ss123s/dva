@@ -7,7 +7,6 @@ import Child from '../component/test';
    }
 
   render(){
-
     return (
       <div>
         <p>父组件传递数据</p><br/>

@@ -3,6 +3,8 @@
   padding:0;
 }
 html, body, :global(#root) {
+  width:1190px;
+  margin:0 auto;
   height: 100%;
 }
 ul ,li :global(#root) {

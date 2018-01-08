@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
 import pop from './popups.css';
-
+/*
+*
+* 父传子来显示   有新订单
+* 点击close后，如果无数据状态就一直隐藏，如果状态更新就显示
+*
+* */
 class Pops extends Component {
   constructor (props) {
     super(props);
