@@ -1,17 +1,17 @@
 import React , {Component} from 'react';
 import Child from '../component/test';
  class Test extends Component {
-  constructor (props) {
-    super(props);
-    this.state = {sendCount: 0};
-  }
+   constructor (props) {
+     super(props);
+     this.state = {checked:false};
+   }
 
   render(){
 
     return (
       <div>
-        <p>父组件</p>
-
+        <p>父组件传递数据</p><br/>
+        <Child text={"my input"} checked={this.state.checked}/>
       </div>
     )
   }
