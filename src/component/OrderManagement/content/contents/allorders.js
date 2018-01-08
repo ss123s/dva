@@ -21,7 +21,7 @@ export default class AllOrders extends Component {
 	render(){
 		return (
 			<div className={conts.pop}>
-				<div className={conts.letEf}>
+				<div className="letEf">
 					全部订单出现了
           <button onClick={this.ClickShow}>点击我显示</button>
           <button onClick={this.ClickHide}>点击隐藏</button>

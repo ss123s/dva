@@ -2,27 +2,29 @@
 	  border-bottom:3px solid #ddd;
 }
 .pop{
-position: relative;	
+position: relative;
 }
-.listUl{
+
+:global(.listUl){
 	display:flex;
 	height:45px;
 	line-height:45px;
 	border-bottom: 1px solid #ccc;
 }
-.listUl li{
-	width:100px;
+:global(.listUl li){
+	width:115px;
 	cursor: pointer;
 }
 
 
-	.letEf{
+:global(.letEf){
 	height:100px;
 	color:red;
 	border:1px solid red;
  animation:fadeInRightBig 0.2s  linear;
  overflow: hidden;
 	}
+
 @keyframes fadeInRightBig {
 		from {
 			transform: translate3d(100%, 0px, 0px)
