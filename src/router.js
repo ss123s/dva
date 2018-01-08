@@ -5,13 +5,11 @@ import Logistics from './routes/logistics';
 import Cooperation from './routes/cooperation';
 import Teams from './routes/Teams';
 import MyCenter from './routes/MyCenter';
-import Testtest from './routes/testtest';
 function RouterConfig({ history }) {
   return (
     <Router history={history}>
       <Switch>
-        <Route path="/" exact component={Testtest} />
-        <Route path="/IndexPage" exact component={IndexPage} />
+        <Route path="/" exact component={IndexPage} />
         <Route path="/logistics" exact component={Logistics} />
         <Route path="/cooperation" exact component={Cooperation} />
         <Route path="/teams" exact component={Teams} />
