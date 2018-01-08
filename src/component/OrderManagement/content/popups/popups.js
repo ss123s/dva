@@ -10,13 +10,14 @@ class Pops extends Component {
   constructor (props) {
     super(props);
   }
+  ClickHides=()=>{
+    this.props.fun(0);
+  }
   render (){
-    let act = this.props.keys;
-    console.log(act+"a111111");
     return (
-      <div className={act}>
+      <div className="showBottom">
         <div style={{position:'relative',height:'40px',width:'100%'}} >
-          <i className={pop.close} >X</i>
+          <i className={pop.close} onClick={this.ClickHides}>X</i>
         </div>
         <div style={{lineHeight:'100px'}}>您有新的订单</div>
       </div>

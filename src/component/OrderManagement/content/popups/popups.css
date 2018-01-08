@@ -26,6 +26,7 @@
 	position: absolute;
 	right:10px;
 	top:0;
+  cursor: pointer;
 }
 @keyframes bounceInUp {
   from, 60%, 75%, 90%, to {

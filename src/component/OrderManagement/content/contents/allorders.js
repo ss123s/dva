@@ -5,23 +5,28 @@ import Pops from '../popups/popups';
 export default class AllOrders extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {keys:1}
+		this.state = {numbs:2}
 	}
-  ClickShow=(props)=>{
+  ClickShow=()=>{
       this.setState({
-        keys: this.state.keys+1
+        numbs:2
       })
   }
+  ClickHide = (a)=>{
+	  let aa = a;
+    this.setState({
+      numbs: aa
+    })
+  }
 	render(){
-	  let keys = this.state;
-	  console.log(keys);
 		return (
 			<div className={conts.pop}>
 				<div className={conts.letEf}>
 					全部订单出现了
-          <button onClick={this.ClickShow}>点击我</button>
+          <button onClick={this.ClickShow}>点击我显示</button>
+          <button onClick={this.ClickHide}>点击隐藏</button>
 				</div>
-				 <Pops keys={this.props.keys} />{keys>=1 ?2:null}
+        {this.state.numbs>0 ? <Pops  fun={this.ClickHide}/>:null}
 			</div>
 		)
 	}
