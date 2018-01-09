@@ -1,0 +1,45 @@
+{
+  "infos": {
+    "id": "1",
+    "name":"张三",
+    "iphone":"15275002031",
+    "post":"配送员",
+    "Poststatus":{
+      "author": "2",
+      "comments":["2","1","0"]
+    },
+    "Information":{
+      "author": "1",
+      "comments":["1","-1"]
+    }
+  },
+  "infos": {
+    "id": "2",
+    "name":"张五",
+    "iphone":"1527500211",
+    "post":"吃货",
+    "Poststatus":{
+      "author": "2",
+      "comments":["2","1","0"]
+    },
+    "Information":{
+      "author": "1",
+      "comments":["1","-1"]
+    }
+  },
+  "infos": {
+    "id": "3",
+    "name":"张八",
+    "iphone":"15275002351",
+    "post":"江湖配送",
+    "Poststatus":{
+      "author": "2",
+      "comments":["2","1","0"]
+    },
+    "Information":{
+      "author": "1",
+      "comments":["1","-1"]
+    }
+  }
+}
+
